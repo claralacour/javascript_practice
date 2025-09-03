@@ -12,3 +12,18 @@ const sum = (sumArray) => {
 
 console.log(sum([1, 2, 3]));
 console.log(sum([10, 20, 30, 40]));
+
+
+//opgave 2
+
+const max = (numberArray) => {
+    let largestNumber = 0;
+    for(let i in numberArray) {
+        if (i > largestNumber) {
+            largestNumber = [i];
+        }
+    }
+    return largestNumber;
+}
+
+console.log(max([1, 2, 3]));
